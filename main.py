@@ -5,11 +5,10 @@ import combination
 import indexing
 
 # Étape 2.1 : Ingestion
-ingestion_twitter.extract_data()
-ingestion_imdb.extract_data()
+# ingestion_tmdb.extract_data()
 
-# Étape 2.2 : Formatage
-formatting.format_data()
+# Should no longer pass (the big_imdb folder was deleted because of its huge size)
+# ingestion_imdb.extract_data()
 
 # Étape 2.3 : Combinaison
 combination.combine_data()
